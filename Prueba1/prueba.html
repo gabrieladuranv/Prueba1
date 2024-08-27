@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hola Mundo Personalizado</title>
+</head>
+<body>
+
+    <script>
+        // Función para obtener el nombre del usuario
+        function obtenerNombre() {
+            let nombre = prompt("Ingrese su nombre:");
+            return nombre;
+        }
+
+        // Función para cambiar el color del texto
+        function cambiarColor() {
+            let elemento = document.getElementById("saludo");
+            let colores = ["red", "green", "blue", "purple", "orange"];
+            let indiceAleatorio = Math.floor(Math.random() * colores.length);
+            elemento.style.color = colores[indiceAleatorio];
+        }
+    </script>
+
+    <h1 id="saludo" onclick="cambiarColor()">Hola, </h1>
+
+    <script>
+        // Obtener el nombre y mostrarlo en el saludo
+        let nombreUsuario = obtenerNombre();
+        document.getElementById("saludo").textContent += nombreUsuario + "!";
+    </script>
+
+</body>
+</html>
