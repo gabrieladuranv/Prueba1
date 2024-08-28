@@ -20,5 +20,3 @@ Este proyecto simple demuestra cómo crear un saludo personalizado en HTML, Java
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o quieres agregar nuevas funcionalidades, por favor, crea un pull request.
 
 ## Autor:Gabriela Duran
-
-[Tu nombre]
